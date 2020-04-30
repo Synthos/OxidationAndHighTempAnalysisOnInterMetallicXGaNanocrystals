@@ -1,0 +1,17 @@
+{
+  "max_diffusivity": 4.5e-12,                                 
+  "diffusivity_prefactor":  1,
+  "activation_energy": 67299,
+  "upper_bound": 4.5e-9,
+  "lower_bound": 0,
+  "concentration": 0.45e9,
+  "plasmon_fitting_coefficient": -7.93,
+  "plasmon_fitting_offset": 526.8,
+  "sigma":  -0.8e-4,
+  "diameter": 9e-9,
+  "tempconst": 0.0134,
+  "offset": 31.5,
+  "title": "Ga-doped Au Oxidation Measurement and Simulation JSAu23",
+  "label": "1D: -erf(x/$\\sqrt{Dt}$)",
+  "file": "/Users/Joeme/Library/Mobile Documents/com~apple~CloudDocs/ETH/MSc/Masterarbeit/Plots/SpectumMeasurements/20200227_Ga-doped_Au_JSAu23_oxidation_peak_evolution_pc.csv"
+}

@@ -1,0 +1,60 @@
+ CHDIR Version 2.0
+!
+!write avi *
+wri fun * hea -1 5
+wri fun / tex "n"
+wri fun / tex "wavelength"
+wri fun / tex "exinc200um"
+wri fun / tex "exinc200umreal"
+wri fun / tex "exinc200umimag"
+wri fun / tex "exscat200um"
+wri fun / tex "exscat200umreal"
+wri fun / tex "exscat200umimag"
+wri fun / tex "extotal200um"
+wri fun / tex "extotal200umreal"
+wri fun / tex "extotal200umimag"
+wri fun / tex "sx200um-sa"
+wri fun / tex "sy200um-sa"
+wri fun / tex "sz200um-sa"
+wri fun / tex "relmaxerr"
+wri fun / tex "relavgerr"
+! end
+!
+set wav 500e-9
+loop 998 998 1 41
+!
+mmp solve
+mmp error
+!clear all
+!draw window
+!draw field
+!draw boundary
+!draw var 10 20 3 wav
+!write avi /
+wri fun / wav
+wri fun / fie exa 0 -2e-4 0 1 31
+wri fun / fie exr 0 -2e-4 0 1 31
+wri fun / fie exi 0 -2e-4 0 1 31
+wri fun / fie exa 0 -2e-4 0 1 -30
+wri fun / fie exr 0 -2e-4 0 1 -30
+wri fun / fie exi 0 -2e-4 0 1 -30
+wri fun / fie exa 0 -2e-4 0 1 0
+wri fun / fie exr 0 -2e-4 0 1 0
+wri fun / fie exi 0 -2e-4 0 1 0
+wri fun / fie sxa 2e-4 0 0 1 -30
+wri fun / fie sya 0 -2e-4 0 1 -30
+wri fun / fie sza 0 0 2e-4 1 -30
+wri fun / err r m
+wri fun / err r a
+!exi ?
+rea mmp *
+increase wav 2e-9
+loop -998
+!
+! end
+!
+!write avi !
+wri fun !
+rea fun /
+!rea pro ++
+ 

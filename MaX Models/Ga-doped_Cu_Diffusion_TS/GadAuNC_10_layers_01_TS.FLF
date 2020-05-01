@@ -1,0 +1,41 @@
+ CHFLF Version 2.0
+1 0 0 0 0 0 0
+1 1 1
+ abbreviations
+inv(sub(log(0.25),log(0.95)))
+neg(mul(q1,log(0.95)))
+srt(add(sqr(x),sqr(y)))
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ E-field
+p
+0
+0
+ H-field
+0
+0
+0
+ A-field
+0
+0
+0
+ V-field
+0
+0
+0
+ 

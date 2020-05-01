@@ -1,0 +1,11 @@
+ CHINT Version 2.0
+2 1 2 0 0 1 1000 1E-2  IntType...
+10 10 -1E-8 -1E-8 1E-8 1E-8  IntNx...
+0 87 1 1E300 -1E300  IntErr...
+4  ObjInt
+0 -1  rectangular
+0 0 0  Origin
+1 0 0  X
+0 1 0  Y
+0 0 1  Z
+ 
